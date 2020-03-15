@@ -15,8 +15,8 @@ public class OptionsManager {
         options.addArguments("--start-maximized");
         options.addArguments("--ignore-certificate-errors");
         options.addArguments("--disable-popup-blocking");
-        options.addArguments("headless");
-        options.addArguments("window-size=1200x600");
+        // options.addArguments("headless");
+        // options.addArguments("window-size=1200x600");
         //options.addArguments("--incognito");
         return options;
     }

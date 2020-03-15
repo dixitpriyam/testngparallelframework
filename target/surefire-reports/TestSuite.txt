@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 291.188 sec <<< FAILURE!
+GOOGLE0(com.FirstTest)  Time elapsed: 138.017 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<Dashboard> but was:<>
+	at org.testng.Assert.fail(Assert.java:89)
+	at org.testng.Assert.failNotEquals(Assert.java:489)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:171)
+	at org.testng.Assert.assertEquals(Assert.java:181)
+	at com.FirstTest.GOOGLE0(FirstTest.java:33)
+
