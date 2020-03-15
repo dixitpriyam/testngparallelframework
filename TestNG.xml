@@ -12,14 +12,14 @@
             </class>
         </classes>
     </test> <!-- First Test -->
-    <!-- <test name="com.SecondTest"  parallel="methods" thread-count="4">
+    <test name="com.SecondTest"  parallel="methods" thread-count="4">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="com.FirstTest">
+            <class name="com.SecondTest">
                 <methods>
                     <include name="GOOGLE1" />
                 </methods>
             </class>
         </classes>
-    </test> <!-- Second Test --> -->
+    </test> <!-- Second Test -->
 </suite> <!-- Suite -->
